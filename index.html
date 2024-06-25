@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio Web Design</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="./scripts.js"></script>
+    <link rel="icon" type="image/jpg" href="./imgs/favicon.jpg" />
+  </head>
+  <body>
+    <header>
+      <a href="#" class="logo-holder">
+        <div class="logo">A</div>
+        <div class="logo-text">Portfolio Website</div>
+      </a>
+      <nav>
+        <ul id="menu">
+          <li>
+            <a href="#">Home</a>
+          </li>
+          <li>
+            <a href="#skills">Skills</a>
+          </li>
+          <li>
+            <a href="#exp">Experience</a>
+          </li>
+          <li>
+            <a href="#projects">Projects</a>
+          </li>
+          <li>
+            <a href="#chatbot" class="chatbot-icon">Chatbot</a>
+          </li>
+
+          <li>
+            <a
+              href="https://www.linkedin.com/in/ashutosh-raj-gupta-18230820b/"
+              target="_blank"
+              class="button"
+              >Contact Me</a
+            >
+          </li>
+        </ul>
+        <a href="#" class="mobile-toggle" onClick="toggleMobileMenu();">
+          <svg
+            class="w-6 h-6 text-gray-800 dark:text-white"
+            aria-hidden="true"
+            xmlns="http://www.w3.org/2000/svg"
+            width="24"
+            height="24"
+            fill="none"
+            viewBox="0 0 24 24"
+          >
+            <path
+              stroke="currentColor"
+              stroke-linecap="round"
+              stroke-width="2"
+              d="M5 7h14M5 12h14M5 17h10"
+            />
+          </svg>
+        </a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-blue">
+          <div>
+            <h1>
+              <small>Hi I'm</small>
+              Ashutosh Raj Gupta
+            </h1>
+            <p>
+              "I'm a passionate software engineer from India with a keen
+              interest in cutting-edge technology fields such as MERN stack and
+              Flutter development. My journey into the tech world began with a
+              fascination for building robust web applications using HTML, CSS,
+              and JavaScript.
+            </p>
+            <div class="call-to-action">
+              <a href="./ASHUTOSH RESUME.pdf" class="button black">
+                View Resume
+              </a>
+              <a href="mailto:ag2364443@gmail.com" class="button white">
+                Contact Me
+              </a>
+            </div>
+            <div class="social-links">
+              <a href="https://github.com/AshutoshRajGupta" target="_blank">
+                <img src="./imgs/github.png" alt="GitHub" width="48" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ashutosh-raj-gupta-18230820b/"
+                target="_blank"
+              >
+                <img src="./imgs/linkedin.png" alt="LinkedIn" width="48" />
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="hero-yellow">
+          <img src="./imgs/prof.jpeg" alt="Adrian Twarog" width="100%" />
+        </div>
+      </section>
+      <section class="logos container">
+        <div class="marquee">
+          <div class="track">
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="JS" width="128" />
+            <img src="./imgs/sass.png" width="128" alt="Sass" />
+            <img src="./imgs/react.png" width="128" alt="React" />
+            <img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+            <img src="./imgs/python.png" width="128" alt="Python" />
+            <img src="./imgs/html.png" alt="HTML" width="128" />
+            <img src="./imgs/css.png" alt="CSS" width="128" />
+            <img src="./imgs/javascript.png" alt="JS" width="128" />
+            <img src="./imgs/sass.png" width="128" alt="Sass" />
+            <img src="./imgs/react.png" width="128" alt="React" />
+            <img src="./imgs/nextjs.png" width="128" alt="Next JS" />
+            <img src="./imgs/vscode.png" width="128" alt="VS Code" />
+            <img src="./imgs/python.png" width="128" alt="Python" />
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skills container">
+        <h2>
+          <small>About Me</small>
+          Skills
+        </h2>
+        <div class="holder-blue">
+          <div class="left-column">
+            <h3>Frontend</h3>
+            <ul>
+              <li>HTML</li>
+              <li>CSS</li>
+              <li>JavaScript</li>
+              <li>React</li>
+              <li>Flutter</li>
+            </ul>
+            <h3>Backend</h3>
+            <ul>
+              <li>Node.js</li>
+              <li>Express</li>
+              <li>Python</li>
+            </ul>
+
+            <h3>Database</h3>
+            <ul>
+              <li>MySql</li>
+              <li>MongoDB</li>
+              <li>Supabase</li>
+            </ul>
+          </div>
+          <div class="right-column">
+            <h3>A bit about me</h3>
+            <p>
+              I have a solid foundation in frontend development with expertise
+              in HTML, CSS, JavaScript, React, and Flutter, enabling me to
+              create dynamic and responsive user interfaces. On the backend, I
+              am proficient in Node.js and Express, leveraging these
+              technologies to build scalable and efficient server-side
+              applications. My skills extend to Python, allowing me to tackle
+              various backend challenges effectively
+            </p>
+            <p>
+              In terms of databases, I am experienced with MySQL, MongoDB, and
+              Supabase, adept at designing and managing databases to support
+              diverse application requirements. With a comprehensive
+              understanding of both frontend and backend technologies, I am
+              equipped to deliver full-stack solutions that are both robust and
+              user-friendly.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id=exp class="work-experience container">
+        <h2>
+          <small>Recent</small>
+          Work Experience
+        </h2>
+        <div class="jobs">
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/workplace-1.jpg"
+                  alt="Workplace 1 - YouTube Creator"
+                  width="100%"
+                />
+                <figcaption>
+                  Workplace - Full Stack Web Developer Intern
+                </figcaption>
+              </div>
+            </figure>
+            <h3>Full Stack Web Developer Intern</h3>
+            <h5>At Solar Secure Solutions</h5>
+            <div>Feb 2023-Apr2023</div>
+            <p>
+              Worked as a Web Developer and developed creative and interactive
+              websites. Worked with Solar Secure team in configuration of Web
+              Projects.
+            </p>
+          </article>
+          <article>
+            <figure>
+              <div>
+                <img
+                  src="./imgs/workplace-2.jpg"
+                  alt="Workplace 2 - Moshi Moshi Marketing"
+                  width="100%"
+                />
+                <figcaption>Workplace - Web Developer</figcaption>
+              </div>
+            </figure>
+            <h3>Web Developer</h3>
+            <h5>Monzen Sustainable Development</h5>
+            <div>Apr 2023-Jun 2023</div>
+            <p>
+              Worked on creating efficient React and PHP components using
+              different technologies like React, Node.js, MySQL, HTML, CSS, PHP,
+              JavaScript, and APIs.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section id="projects" class="bento container">
+        <h2>Completed Projects</h2>
+        <div class="filter-buttons">
+          <button data-filter="all">All</button>
+          <button data-filter="web">Web</button>
+          <button data-filter="android">Android</button>
+          <button data-filter="ui">UI Design</button>
+        </div>
+        <div class="bento-grid">
+          <div class="bento-item" data-category="web">
+            <img src="./imgs/watch_ecommerce.png" alt="BGCCI" width="100%" />
+            <div class="content">
+              <h3>Watch Ecommerce</h3>
+              <p>
+                Experience seamless shopping on our MERN stack watch e-commerce
+                website! Sign up, log in, and explore a vast collection of
+                watches. Easily add items to your cart, enjoy secure payments
+                through a payment gateway, and track your shipment for a
+                hassle-free shopping journey.
+              </p>
+              <a
+                href="https://github.com/AshutoshRajGupta/watch-ecommerce"
+                target="_blank"
+                class="project-link"
+                >Code
+              </a>
+            </div>
+          </div>
+          <div class="bento-item" data-category="android">
+            <img src="./imgs/blog.png" alt="Churhview" width="100%" />
+            <div class="content">
+              <h3>Flutter Clean Architecture Blog App</h3>
+              <p>
+                This Flutter project demonstrates a clean architecture approach
+                to implementing a blog app with authentication using Supabase as
+                the database backend and Hive for local storage. The project is
+                organized to separate concerns and follow best practices in
+                software architecture.
+              </p>
+              <a
+                href="https://github.com/AshutoshRajGupta/flutter-clean-architecture-blogApp"
+                target="_blank"
+                class="project-link"
+                >Code
+              </a>
+            </div>
+          </div>
+          <div class="bento-item" data-category="web">
+            <img src="./imgs/cryptdrive.png" alt="Harley" width="100%" />
+            <div class="content">
+              <h3>Cryptdrive Version 2</h3>
+              <p>
+                The project aims to create a decentralized document storage
+                system using the MERN (MongoDB, Express.js, React.js, Node.js)
+                stack along with blockchain technology.
+              </p>
+              <a
+                href="https://github.com/AshutoshRajGupta/cryptdrive_version_2"
+                target="_blank"
+                class="project-link"
+                >Code
+              </a>
+            </div>
+          </div>
+          <div class="bento-item" data-category="android">
+            <img src="./imgs/todo_flutter.png" alt="Bunbury" width="100%" />
+            <div class="content">
+              <h3>ToDo UI Flutter</h3>
+              <p>
+                This is a ToDo application built with Flutter. The app helps
+                users manage their tasks efficiently and stay organized. It
+                allows users to add, edit, and delete tasks, as well as filter
+                tasks based on their completion status.
+              </p>
+              <a
+                href="https://github.com/AshutoshRajGupta/ToDo_UI_FLutter"
+                target="_blank"
+                class="project-link"
+                >Code
+              </a>
+            </div>
+          </div>
+          <div class="bento-item" data-category="web">
+            <img src="./imgs/pos.png" alt="Running" width="100%" />
+            <div class="content">
+              <h3>POS Application</h3>
+              <p>
+                Point of Sale (POS) application built using the MERN stack
+                (MongoDB, Express.js, React.js, Node.js). The application
+                provides functionalities for managing sales transactions,
+                including user authentication, order processing, generating
+                bills, and accessing customer details.
+              </p>
+              <a
+                href="https://github.com/AshutoshRajGupta/pos_application"
+                target="_blank"
+                class="project-link"
+                >Code
+              </a>
+            </div>
+          </div>
+          <div class="bento-item" data-category="web">
+            <img src="./imgs/mern_blog.png" alt="School" width="100%" />
+            <div class="content">
+              <h3>MERN Blog</h3>
+              <p>
+                Welcome to our MERN stack blog platform! Register, log in, and
+                unleash your creativity by creating, editing, and deleting
+                blogs. Experience seamless multi-user functionality for a
+                diverse and engaging blogging community.
+              </p>
+              <a
+                href="https://github.com/AshutoshRajGupta/mern_blog"
+                target="_blank"
+                class="project-link"
+              >
+                Code ></a
+              >
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="chatbot" class="chatbot container">
+        <h2>
+          <small>Talk to me</small>
+          Chatbot
+        </h2>
+        <div class="chatbot-content">
+          <div class="chat-info">
+            <h3>Portfolio Chatbot</h3>
+            <p>
+              I've put together a chatbot here which knows all my skills, work
+              experience, and has a copy of my CV/Resume. You can use it to ask
+              questions about me to get a better idea of who I am and what I've done.
+            </p>
+            <p>
+              Keywords you can serach:
+              <ul>
+                <li>"Hi"</li>
+                <li>"Skills"</li>
+                <li>"Experience"</li>
+                <li>"Projects"</li>
+                <li>"Contact"</li>
+                <li>"Education"</li>
+                <li>"Hobbies"</li>
+              </ul>
+            </p>
+            <a href="./ASHUTOSH RESUME.pdf" class="button black">Download Resume</a>
+          </div>
+          <div class="chat-box">
+            <div class="scroll-area">
+              <ul id="chat-log">
+                <li>
+                  <span class="avatar bot">AI</span>
+                  <div class="message">
+                    Hi, I'm a friendly chatbot that lets you interact with this portfolio and CV. How can I help?
+                  </div>
+                </li>
+                <li>
+                  <span class="avatar user">User</span>
+                  <div class="message">I have a question to ask you about this resume.</div>
+                </li>
+              </ul>
+            </div>
+            <div class="chat-message">
+              <input id="user-input" type="text" placeholder="Ask me anything..." />
+              <button class="button black" onclick="sendMessage()">Send</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      
+    </main>
+    <footer>
+      <div class="footer-container">
+        <div class="footer-logo">
+          <div class="logo">A</div>
+          <div class="logo-text">Portfolio Website</div>
+        </div>
+
+        <div class="footer-social">
+          <a href="https://github.com/AshutoshRajGupta" target="_blank">
+            <img src="./imgs/github.png" alt="GitHub" width="32" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/ashutosh-raj-gupta-18230820b/"
+            target="_blank"
+          >
+            <img src="./imgs/linkedin.png" alt="LinkedIn" width="32" />
+          </a>
+        </div>
+      </div>
+    </footer>
+    <button id="scrollToTopBtn" onclick="scrollToTop()">Top</button>
+
+  </body>
+</html>
